@@ -26,3 +26,32 @@ Ways to solve:
 1. Word-level
 2. Morphemes-level
 3. Letter-level
+
+
+References
+1. Adali, K., & Eryiğit, G. (2014, April). Vowel and diacritic restoration for social media texts. In Proceedings of the 5th Workshop on Language Analysis for Social Media (LASM) (pp. 53-61).
+2. De Pauw, G., Wagacha, P. W., & De Schryver, G. M. (2007, September). Automatic diacritic restoration for resource-scarce languages. In International Conference on Text, Speech and Dialogue (pp. 170-179). Springer, Berlin, Heidelberg.
+3. Ezeani, I., Hepple, M., & Onyenwe, I. (2016, September). Automatic restoration of diacritics for Igbo language. In International Conference on Text, Speech, and Dialogue (pp. 198-205). Springer, Cham.
+5. Ezeani, I., Hepple, M. R., & Onyenwe, I. (2017, April). Lexical disambiguation of Igbo using diacritic restoration. In Proceedings of the 1st Workshop on Sense, Concept and Entity Representations and their Applications (pp. 53-60). Association for Computational Linguistics.
+6. Francom, J., & Hulden, M. (2013). Diacritic error detection and restoration via part-of-speech tags. In Proceedings of the 6th Language and Technology Conference.
+Luu, T. A., & Yamamoto, K. (2012, November). A pointwise approach for Vietnamese diacritics restoration. In 2012 International Conference on Asian Language Processing (pp. 189-192). IEEE.
+
+
+Adali, K., & Eryiğit, G. (2014, April). Vowel and diacritic restoration for social media texts. In Proceedings of the 5th Workshop on Language Analysis for Social Media (LASM) (pp. 53-61).
+We propose a hybrid model consisting both a discriminative sequence classifier and a language validator in order to select one of the morphologically valid outputs of the first stage. The proposed model is language independent and has no need for manual annotation of the training data. We measured the performance both on synthetic data specifically produced for these two problems and on real social media data.
+
+De Pauw, G., Wagacha, P. W., & De Schryver, G. M. (2007, September). Automatic diacritic restoration for resource-scarce languages. In International Conference on Text, Speech and Dialogue (pp. 170-179). Springer, Berlin, Heidelberg.
+This paper describes experiments with a machine learning approach that is able to automatically restore diacritics on the basis of local graphemic context.We apply the method to the African languages of Cilub`a, G˜ık˜uy˜u, K˜ıkamba, Maa, Sesotho sa Leboa, Tshivenda and Yoruba and contrast it with experiments on Czech, Dutch, French, German and Romanian, as well as Vietnamese and Chinese Pinyin.
+
+Ezeani, I., Hepple, M., & Onyenwe, I. (2016, September). Automatic restoration of diacritics for Igbo language. In International Conference on Text, Speech, and Dialogue (pp. 198-205). Springer, Cham.
+In this paper, we experiment using an Igbo bible corpus, which is extensively marked for vowel distinctions, and partially for tonal distinctions, and attempt the task of reinstating these diacritics when they have been deleted. We investigate a number of word-level diacritic restoration methods, based on n-grams, under a closed-world assumption, achieving an accuracy of 98.83% with our most effective method.
+
+
+Ezeani, I., Hepple, M. R., & Onyenwe, I. (2017, April). Lexical disambiguation of Igbo using diacritic restoration. In Proceedings of the 1st Workshop on Sense, Concept and Entity Representations and their Applications (pp. 53-60). Association for Computational Linguistics.
+In our previous work, we built some n−gram models with simple smoothing techniques based on a closed world assumption. However, as a classification task, diacritic restoration is well suited for and will be more generalizable with machine learning. This paper, therefore, presents a more standard approach to dealing with the task which involves the application of machine learning algorithms.
+
+Francom, J., & Hulden, M. (2013). Diacritic error detection and restoration via part-of-speech tags. In Proceedings of the 6th Language and Technology Conference.
+In this paper we address the problem of diacritic error detection and restoration—the task of identifying and correcting missing accents in text. In particular, we evaluate the performance of a simple part-of-speech tagger-based technique comparing it to other well-established methods for error detection/restoration: unigram frequency, decision lists and grapheme-based approaches. In languages such as Spanish, the current focus, diacritics play a key role in disambiguation and results show that a straightforward modification to an n-gram tagger can be used to achieve good performance in diacritic error identification without resorting to any specialized machinery.
+
+Luu, T. A., & Yamamoto, K. (2012, November). A pointwise approach for Vietnamese diacritics restoration. In 2012 International Conference on Asian Language Processing (pp. 189-192). IEEE.
+This paper proposes a pointwise approach for automatically recovering missing diacritics, using three features for classification: n-grams of syllables, n-grams of syllable types, and dictionary word features.
