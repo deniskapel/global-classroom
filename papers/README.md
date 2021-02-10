@@ -21,3 +21,8 @@ Mainly, there are three approaches to diacritics restoration(text 2):
 1. Rule-based approach
 2. Statistical approach
 3. Hybrid approach.
+
+Ways to solve:
+1. Word-level
+2. Morphemes-level
+3. Letter-level
