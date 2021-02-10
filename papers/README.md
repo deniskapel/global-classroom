@@ -11,6 +11,13 @@ The following papers might be used for the project paper:
 7. [Automatic Diacritics Restoration for Tunisian Dialect](https://www.researchgate.net/publication/334438695_Automatic_Diacritics_Restoration_for_Tunisian_Dialect)
 8. [Automatic Diacritics Restoration for Hungarian](https://www.researchgate.net/publication/301445993_Automatic_Diacritics_Restoration_for_Hungarian)
 9. [A Cascaded Approach for Social Media Text Normalization of Turkish](https://www.researchgate.net/publication/281239696_A_Cascaded_Approach_for_Social_Media_Text_Normalization_of_Turkish)
+10. [Morphological, Syntactic and Diacritics Rules for Automatic Diacritization of Arabic Sentences](https://www.researchgate.net/publication/305111497_Morphological_Syntactic_and_Diacritics_Rules_for_Automatic_Diacritization_of_Arabic_Sentences)
+11. [Knowledge and Rule-Based Diacritic Restoration in Serbian](https://www.researchgate.net/publication/328416358_Knowledge_and_Rule-Based_Diacritic_Restoration_in_Serbian)
 
 
 Statistical  machine  translation  (SMT) is applied in several of the papers. Check if applicable for a small corpus.
+
+Mainly, there are three approaches to diacritics restoration(text 2):
+1. Rule-based approach
+2. Statistical approach
+3. Hybrid approach.
