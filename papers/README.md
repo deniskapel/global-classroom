@@ -35,7 +35,7 @@ References
 5. Ezeani, I., Hepple, M. R., & Onyenwe, I. (2017, April). Lexical disambiguation of Igbo using diacritic restoration. In Proceedings of the 1st Workshop on Sense, Concept and Entity Representations and their Applications (pp. 53-60). Association for Computational Linguistics.
 6. Francom, J., & Hulden, M. (2013). Diacritic error detection and restoration via part-of-speech tags. In Proceedings of the 6th Language and Technology Conference.
 Luu, T. A., & Yamamoto, K. (2012, November). A pointwise approach for Vietnamese diacritics restoration. In 2012 International Conference on Asian Language Processing (pp. 189-192). IEEE.
-
+7. Zitouni, I., & Sarikaya, R. (2009). Arabic diacritic restoration approach based on maximum entropy models. Computer Speech & Language, 23(3), 257-276.
 
 Adali, K., & Eryiğit, G. (2014, April). Vowel and diacritic restoration for social media texts. In Proceedings of the 5th Workshop on Language Analysis for Social Media (LASM) (pp. 53-61).
 We propose a hybrid model consisting both a discriminative sequence classifier and a language validator in order to select one of the morphologically valid outputs of the first stage. The proposed model is language independent and has no need for manual annotation of the training data. We measured the performance both on synthetic data specifically produced for these two problems and on real social media data.
@@ -55,3 +55,7 @@ In this paper we address the problem of diacritic error detection and restoratio
 
 Luu, T. A., & Yamamoto, K. (2012, November). A pointwise approach for Vietnamese diacritics restoration. In 2012 International Conference on Asian Language Processing (pp. 189-192). IEEE.
 This paper proposes a pointwise approach for automatically recovering missing diacritics, using three features for classification: n-grams of syllables, n-grams of syllable types, and dictionary word features.
+
+
+Zitouni, I., & Sarikaya, R. (2009). Arabic diacritic restoration approach based on maximum entropy models. Computer Speech & Language, 23(3), 257-276.
+In this paper we present a maximum entropy approach for restoring short vowels and other diacritics in an Arabic document. The approach can easily integrate and make effective use of diverse types of information; the model we propose integrates a wide array of lexical, segment-based and part-of-speech tag features. The combination of these feature types leads to a high-performance diacritic restoration model. Using a publicly available corpus (LDC’s Arabic Treebank Part 3), we achieve a diacritic error rate of 5.1%, a segment error rate 8.5%, and a word error rate of 17.3%. In case-ending-less setting, we obtain a diacritic error rate of 2.2%, a segment error rate of 4.0%, and a word error rate of 7.2%. We also show in this paper a comparison of our approach to previously published techniques and we demonstrate the effectiveness of this technique in restoring diacritics in different kind of data such as the dialectal Iraqi Arabic scripts.
