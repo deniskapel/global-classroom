@@ -12,4 +12,4 @@ to run and get started with.
 
 ## Submission
 
-Paper will be submittet via [EasyChair](https://easychair.org/conferences/?conf=ling545gc). 
+Paper will be submitted via [EasyChair](https://easychair.org/conferences/?conf=ling545gc). 
