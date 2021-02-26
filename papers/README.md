@@ -12,12 +12,7 @@ The following papers might be used for the project paper:
 8. [Automatic Diacritics Restoration for Hungarian](https://www.researchgate.net/publication/301445993_Automatic_Diacritics_Restoration_for_Hungarian)
 9. [A Cascaded Approach for Social Media Text Normalization of Turkish](https://www.researchgate.net/publication/281239696_A_Cascaded_Approach_for_Social_Media_Text_Normalization_of_Turkish)
 10. [Morphological, Syntactic and Diacritics Rules for Automatic Diacritization of Arabic Sentences](https://www.researchgate.net/publication/305111497_Morphological_Syntactic_and_Diacritics_Rules_for_Automatic_Diacritization_of_Arabic_Sentences)
-
-11 [Knowledge and Rule-Based Diacritic Restoration in Serbian](https://www.researchgate.net/publication/328416358_Knowledge_and_Rule-Based_Diacritic_Restoration_in_Serbian)
-“The ‘three key’ trigram model with the Add 1 and backward replacement [was] the most effective method with a performance accuracy of 98.83%” (p. 7). A backward replacement technique tells the program to “step back and correct” anything assumed to be an error. The authors give the example that “if the most probable [trigram] suggest a different diacritic form for the preceding word, then it will be replaced with the current word” (p. 6). 
-
-The stored dictionary used was a copy of the Bible translated into Igbo. Bible verses were used as the unit of entry instead of sentences. The entire corpus contained “1,070,429 tokens (including punctuations and numbers) with 14,422 unique word types out of which 5580 are unambiguous (i.e. appeared only in one diacritic form) in the text. The lexical diffusion on the text is 1.0398. 
-
+11. [Knowledge and Rule-Based Diacritic Restoration in Serbian](https://www.researchgate.net/publication/328416358_Knowledge_and_Rule-Based_Diacritic_Restoration_in_Serbian)
 
 
 #### Statistical  machine  translation  (SMT) is applied in several of the papers. Check if applicable for a small corpus.
@@ -48,8 +43,12 @@ We propose a hybrid model consisting both a discriminative sequence classifier a
 De Pauw, G., Wagacha, P. W., & De Schryver, G. M. (2007, September). Automatic diacritic restoration for resource-scarce languages. In International Conference on Text, Speech and Dialogue (pp. 170-179). Springer, Berlin, Heidelberg.
 This paper describes experiments with a machine learning approach that is able to automatically restore diacritics on the basis of local graphemic context.We apply the method to the African languages of Cilub`a, G˜ık˜uy˜u, K˜ıkamba, Maa, Sesotho sa Leboa, Tshivenda and Yoruba and contrast it with experiments on Czech, Dutch, French, German and Romanian, as well as Vietnamese and Chinese Pinyin.
 
-Ezeani, I., Hepple, M., & Onyenwe, I. (2016, September). Automatic restoration of diacritics for Igbo language. In International Conference on Text, Speech, and Dialogue (pp. 198-205). Springer, Cham.
-In this paper, we experiment using an Igbo bible corpus, which is extensively marked for vowel distinctions, and partially for tonal distinctions, and attempt the task of reinstating these diacritics when they have been deleted. We investigate a number of word-level diacritic restoration methods, based on n-grams, under a closed-world assumption, achieving an accuracy of 98.83% with our most effective method.
+#### Ezeani, I., Hepple, M., & Onyenwe, I. (2016, September). Automatic restoration of diacritics for Igbo language. In International Conference on Text, Speech, and Dialogue (pp. 198-205). Springer, Cham.
+"In this paper, we experiment using an Igbo bible corpus, which is extensively marked for vowel distinctions, and partially for tonal distinctions, and attempt the task of reinstating these diacritics when they have been deleted. We investigate a number of word-level diacritic restoration methods, based on n-grams, under a closed-world assumption, achieving an accuracy of 98.83% with our most effective method."
+
+“The ‘three key’ trigram model with the Add 1 and backward replacement [was] the most effective method with a performance accuracy of 98.83%” (p. 7). A backward replacement technique tells the program to “step back and correct” anything assumed to be an error. The authors give the example that “if the most probable [trigram] suggest a different diacritic form for the preceding word, then it will be replaced with the current word” (p. 6). 
+
+The stored dictionary used was a copy of the Bible translated into Igbo. Bible verses were used as the unit of entry instead of sentences. The entire corpus contained “1,070,429 tokens (including punctuations and numbers) with 14,422 unique word types out of which 5580 are unambiguous (i.e. appeared only in one diacritic form) in the text. The lexical diffusion on the text is 1.0398. 
 
 
 Ezeani, I., Hepple, M. R., & Onyenwe, I. (2017, April). Lexical disambiguation of Igbo using diacritic restoration. In Proceedings of the 1st Workshop on Sense, Concept and Entity Representations and their Applications (pp. 53-60). Association for Computational Linguistics.
