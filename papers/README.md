@@ -19,7 +19,8 @@ The following papers might be used for the project paper:
 The stored dictionary used was a copy of the Bible translated into Igbo. Bible verses were used as the unit of entry instead of sentences. The entire corpus contained “1,070,429 tokens (including punctuations and numbers) with 14,422 unique word types out of which 5580 are unambiguous (i.e. appeared only in one diacritic form) in the text. The lexical diffusion on the text is 1.0398. 
 
 
-Statistical  machine  translation  (SMT) is applied in several of the papers. Check if applicable for a small corpus.
+
+#### Statistical  machine  translation  (SMT) is applied in several of the papers. Check if applicable for a small corpus.
 
 ### Mainly, there are three approaches to diacritics restoration(text 2):
 1. Rule-based approach
