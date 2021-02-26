@@ -12,17 +12,21 @@ The following papers might be used for the project paper:
 8. [Automatic Diacritics Restoration for Hungarian](https://www.researchgate.net/publication/301445993_Automatic_Diacritics_Restoration_for_Hungarian)
 9. [A Cascaded Approach for Social Media Text Normalization of Turkish](https://www.researchgate.net/publication/281239696_A_Cascaded_Approach_for_Social_Media_Text_Normalization_of_Turkish)
 10. [Morphological, Syntactic and Diacritics Rules for Automatic Diacritization of Arabic Sentences](https://www.researchgate.net/publication/305111497_Morphological_Syntactic_and_Diacritics_Rules_for_Automatic_Diacritization_of_Arabic_Sentences)
-11. [Knowledge and Rule-Based Diacritic Restoration in Serbian](https://www.researchgate.net/publication/328416358_Knowledge_and_Rule-Based_Diacritic_Restoration_in_Serbian)
+
+11 [Knowledge and Rule-Based Diacritic Restoration in Serbian](https://www.researchgate.net/publication/328416358_Knowledge_and_Rule-Based_Diacritic_Restoration_in_Serbian)
+“The ‘three key’ trigram model with the Add 1 and backward replacement [was] the most effective method with a performance accuracy of 98.83%” (p. 7). A backward replacement technique tells the program to “step back and correct” anything assumed to be an error. The authors give the example that “if the most probable [trigram] suggest a different diacritic form for the preceding word, then it will be replaced with the current word” (p. 6). 
+
+The stored dictionary used was a copy of the Bible translated into Igbo. Bible verses were used as the unit of entry instead of sentences. The entire corpus contained “1,070,429 tokens (including punctuations and numbers) with 14,422 unique word types out of which 5580 are unambiguous (i.e. appeared only in one diacritic form) in the text. The lexical diffusion on the text is 1.0398. 
 
 
 Statistical  machine  translation  (SMT) is applied in several of the papers. Check if applicable for a small corpus.
 
-Mainly, there are three approaches to diacritics restoration(text 2):
+### Mainly, there are three approaches to diacritics restoration(text 2):
 1. Rule-based approach
 2. Statistical approach
 3. Hybrid approach.
 
-Ways to solve:
+### Ways to solve:
 1. Word-level
 2. Morphemes-level
 3. Letter-level
