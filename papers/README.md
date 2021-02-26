@@ -37,10 +37,10 @@ References
 Luu, T. A., & Yamamoto, K. (2012, November). A pointwise approach for Vietnamese diacritics restoration. In 2012 International Conference on Asian Language Processing (pp. 189-192). IEEE.
 7. Zitouni, I., & Sarikaya, R. (2009). Arabic diacritic restoration approach based on maximum entropy models. Computer Speech & Language, 23(3), 257-276.
 
-Adali, K., & Eryiğit, G. (2014, April). Vowel and diacritic restoration for social media texts. In Proceedings of the 5th Workshop on Language Analysis for Social Media (LASM) (pp. 53-61).
+#### Adali, K., & Eryiğit, G. (2014, April). Vowel and diacritic restoration for social media texts. In Proceedings of the 5th Workshop on Language Analysis for Social Media (LASM) (pp. 53-61).
 We propose a hybrid model consisting both a discriminative sequence classifier and a language validator in order to select one of the morphologically valid outputs of the first stage. The proposed model is language independent and has no need for manual annotation of the training data. We measured the performance both on synthetic data specifically produced for these two problems and on real social media data.
 
-De Pauw, G., Wagacha, P. W., & De Schryver, G. M. (2007, September). Automatic diacritic restoration for resource-scarce languages. In International Conference on Text, Speech and Dialogue (pp. 170-179). Springer, Berlin, Heidelberg.
+#### De Pauw, G., Wagacha, P. W., & De Schryver, G. M. (2007, September). Automatic diacritic restoration for resource-scarce languages. In International Conference on Text, Speech and Dialogue (pp. 170-179). Springer, Berlin, Heidelberg.
 This paper describes experiments with a machine learning approach that is able to automatically restore diacritics on the basis of local graphemic context.We apply the method to the African languages of Cilub`a, G˜ık˜uy˜u, K˜ıkamba, Maa, Sesotho sa Leboa, Tshivenda and Yoruba and contrast it with experiments on Czech, Dutch, French, German and Romanian, as well as Vietnamese and Chinese Pinyin.
 
 #### Ezeani, I., Hepple, M., & Onyenwe, I. (2016, September). Automatic restoration of diacritics for Igbo language. In International Conference on Text, Speech, and Dialogue (pp. 198-205). Springer, Cham.
@@ -50,8 +50,7 @@ This paper describes experiments with a machine learning approach that is able t
 
 The stored dictionary used was a copy of the Bible translated into Igbo. Bible verses were used as the unit of entry instead of sentences. The entire corpus contained “1,070,429 tokens (including punctuations and numbers) with 14,422 unique word types out of which 5580 are unambiguous (i.e. appeared only in one diacritic form) in the text. The lexical diffusion on the text is 1.0398. 
 
-
-Ezeani, I., Hepple, M. R., & Onyenwe, I. (2017, April). Lexical disambiguation of Igbo using diacritic restoration. In Proceedings of the 1st Workshop on Sense, Concept and Entity Representations and their Applications (pp. 53-60). Association for Computational Linguistics.
+#### Ezeani, I., Hepple, M. R., & Onyenwe, I. (2017, April). Lexical disambiguation of Igbo using diacritic restoration. In Proceedings of the 1st Workshop on Sense, Concept and Entity Representations and their Applications (pp. 53-60). Association for Computational Linguistics.
 In our previous work, we built some n−gram models with simple smoothing techniques based on a closed world assumption. However, as a classification task, diacritic restoration is well suited for and will be more generalizable with machine learning. This paper, therefore, presents a more standard approach to dealing with the task which involves the application of machine learning algorithms.
 
 Francom, J., & Hulden, M. (2013). Diacritic error detection and restoration via part-of-speech tags. In Proceedings of the 6th Language and Technology Conference.
