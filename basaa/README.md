@@ -77,8 +77,40 @@ in the training data.
 Systems will be evaluated by Word Error Rate (WER) and Character Error Rate (CER). You can run the evaluation
 using the script `evaluate.py`:
 
+# Probably the best result ever recieved
+
 ```bash
 $ python3 evaluate.py data/test.tsv output.tsv 
 CER: 4.456824512534819
 WER: 18.916666666666664
+```
+
+# Our experiments
+
+This is the result with a unigram model
+
+```
+      CER: 16.54687852515551
+      WER: 40.88336922205728
+```
+
+This is the result if you only replace words with with frequency = 1.0
+
+```
+      CER: 31.07938247332968
+      WER: 71.55824609018337
+```
+
+This is the result if you only replace words with pairs with frequency >= .75
+
+```
+      CER: 24.86543977825765
+      WER: 53.64671032464463
+```
+
+This is the result if you only replace words with pairs with frequency > .5
+
+```
+      CER: 19.860121829374418
+      WER: 44.13193799706697
 ```
