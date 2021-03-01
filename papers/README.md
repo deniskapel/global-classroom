@@ -3,7 +3,7 @@
 The following papers might be used for the project paper:
 
 1. [Multi-components System for Automatic Arabic Diacritization](https://www.semanticscholar.org/paper/Multi-components-System-for-Automatic-Arabic-Abbad-Xiong/c24d9c392878bffd8ee4c7992af967c524786cdb) Probably relevant for basaa too: The automatic diacritization problem is an essential topic due to the high
-ambiguity of the undiacritized text and the free word order nature of the grammar. 
+ambiguity of the undiacritized text and the free word order nature of the grammar. Their results fro two samples are CER1 = 4.00%, WER1 = 12.08%, CER2 = 2.80% and WER2 = 6.22%.
 2. [An automatic diacritization algorithm for undiacritized Arabic text](http://etd.uum.edu.my/6822/2/s815357_02.pdf)
 4. [Open Vocabulary Arabic Diacritics Restoration](https://www.semanticscholar.org/paper/Open-Vocabulary-Arabic-Diacritics-Restoration-Hifny/df672bbd9a4e88bffb3487ad28b5afb99d52d858)
 5. [Higher Order n-gram Language Models for Arabic Diacritics Restoration]()
@@ -42,7 +42,7 @@ The output and the input of the previous phase are transformed and merged to gen
 
 ### Ways to solve:
 1. Word-level
-
+They use first use trigrams, then bigrams and then a Minimum Edit Distance Correction [Article 1]
 3. Morphemes-level
 4. Letter-level
 The input is mapped to a set of 38 numeric labels representing all the Arabic characters in addition to 0 and the white space. It is transformed into a 2D
