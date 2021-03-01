@@ -5,15 +5,15 @@ The following papers might be used for the project paper:
 1. [Multi-components System for Automatic Arabic Diacritization](https://www.semanticscholar.org/paper/Multi-components-System-for-Automatic-Arabic-Abbad-Xiong/c24d9c392878bffd8ee4c7992af967c524786cdb) Probably relevant for basaa too: The automatic diacritization problem is an essential topic due to the high
 ambiguity of the undiacritized text and the free word order nature of the grammar. Their results fro two samples are CER1 = 4.00%, WER1 = 12.08%, CER2 = 2.80% and WER2 = 6.22%.
 2. [An automatic diacritization algorithm for undiacritized Arabic text](http://etd.uum.edu.my/6822/2/s815357_02.pdf) Only a part of a thesis, but the approaches and levels come from here.
-4. [Open Vocabulary Arabic Diacritics Restoration](https://www.semanticscholar.org/paper/Open-Vocabulary-Arabic-Diacritics-Restoration-Hifny/df672bbd9a4e88bffb3487ad28b5afb99d52d858) They apply BPE, sequences of characters not single character or word. Helps to track morphemes.
-5. [Higher Order n-gram Language Models for Arabic Diacritics Restoration]() Part of Article 1
-6. [Diacritizing Arabic Text Using a Single Hidden Markov Model](https://www.researchgate.net/publication/326163674_Diacritizing_Arabic_Text_Using_a_Single_Hidden_Markov_Model)
-7. [A Survey of Approaches to Diacritic Restoration](https://www.researchgate.net/publication/328419851_A_Survey_of_Approaches_to_Diacritic_Restoration)
-8. [Automatic Diacritics Restoration for Tunisian Dialect](https://www.researchgate.net/publication/334438695_Automatic_Diacritics_Restoration_for_Tunisian_Dialect)
-9. [Automatic Diacritics Restoration for Hungarian](https://www.researchgate.net/publication/301445993_Automatic_Diacritics_Restoration_for_Hungarian)
-10. [A Cascaded Approach for Social Media Text Normalization of Turkish](https://www.researchgate.net/publication/281239696_A_Cascaded_Approach_for_Social_Media_Text_Normalization_of_Turkish)
-11. [Morphological, Syntactic and Diacritics Rules for Automatic Diacritization of Arabic Sentences](https://www.researchgate.net/publication/305111497_Morphological_Syntactic_and_Diacritics_Rules_for_Automatic_Diacritization_of_Arabic_Sentences)
-12. [Knowledge and Rule-Based Diacritic Restoration in Serbian](https://www.researchgate.net/publication/328416358_Knowledge_and_Rule-Based_Diacritic_Restoration_in_Serbian)
+3. [Open Vocabulary Arabic Diacritics Restoration](https://www.semanticscholar.org/paper/Open-Vocabulary-Arabic-Diacritics-Restoration-Hifny/df672bbd9a4e88bffb3487ad28b5afb99d52d858) They apply BPE, sequences of characters not single character or word. Helps to track morphemes.
+4. [Higher Order n-gram Language Models for Arabic Diacritics Restoration]() Part of Article 1
+5. [Diacritizing Arabic Text Using a Single Hidden Markov Model](https://www.researchgate.net/publication/326163674_Diacritizing_Arabic_Text_Using_a_Single_Hidden_Markov_Model) Another factor that affects overall performance is the number of diacritics the system can recognize. Whereas Gal [17] used only three basic diacritics, Elshafei et al. [20], [21] extended the diacritic set into eight, and El-Harby et al. [18] used 11 diacritical marks to vowelize the Arabic text. Extending the diacritic set expands the practicality of the system however; it complicates the implementation of HMMs.
+6. [A Survey of Approaches to Diacritic Restoration](https://www.researchgate.net/publication/328419851_A_Survey_of_Approaches_to_Diacritic_Restoration)
+7. [Automatic Diacritics Restoration for Tunisian Dialect](https://www.researchgate.net/publication/334438695_Automatic_Diacritics_Restoration_for_Tunisian_Dialect)
+8. [Automatic Diacritics Restoration for Hungarian](https://www.researchgate.net/publication/301445993_Automatic_Diacritics_Restoration_for_Hungarian)
+9. [A Cascaded Approach for Social Media Text Normalization of Turkish](https://www.researchgate.net/publication/281239696_A_Cascaded_Approach_for_Social_Media_Text_Normalization_of_Turkish)
+10. [Morphological, Syntactic and Diacritics Rules for Automatic Diacritization of Arabic Sentences](https://www.researchgate.net/publication/305111497_Morphological_Syntactic_and_Diacritics_Rules_for_Automatic_Diacritization_of_Arabic_Sentences)
+11. [Knowledge and Rule-Based Diacritic Restoration in Serbian](https://www.researchgate.net/publication/328416358_Knowledge_and_Rule-Based_Diacritic_Restoration_in_Serbian)
 "The procedure [used in this paper] relies on the comprehensive lexical resources for Serbian: the morphological electronic dictionaries, the Corpus of Contemporary Serbian and local grammars. Dictionaries are used to identify possible candidates for the restoration, while the data obtained from SrpKor and local grammars assists in making a decision between several candidates in cases of ambiguity. The evaluation results reveal that, depending on the text, accuracy ranges from 95.03% to 99.36%, while the precision (average 98.93%) is always higher than the recall (average 94.94%)." I don't think our corpus is large enough to use the approach in this paper. Their corpus includes all Serbian words that use diacritics (p. 43).
 
 #### Statistical  machine  translation  (SMT) is applied in several of the papers. Check if applicable for a small corpus.
@@ -36,6 +36,8 @@ on word level and on character level as well [10], Dynamic Programming methods [
 classifier [46], and Deep Learning methods like the Deep Neural Networks, both the classical Multi-Layer Perceptron and the advanced Recurrent Neural Networks[6,14,32,36]. [Article 1] Ngrams on both word and character levels look the easiest for me'. They give an approach to vectorize a sentence, we may try, why not. 
 
 Markov models are restrictive in the diacritization process because they match each observation to a distinct state within the model, whereas, in reality, each state (diacritic) has a probabilistic function that generates the possible observations (ASCII codes of the script letters) [Article 5]
+
+This program passes through three modules. The first module reads the text line and transfers it into a sequence of predefined observation symbols. The second module generates the output sequence: the diacritics. The final module arranges the output sequence with the raw text by imposing the diacritics above and below the equivalent characters. [Article 5]
 
 3. Hybrid approach.
 
