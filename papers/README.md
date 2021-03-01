@@ -75,7 +75,7 @@ A large diacritized training corpus is segmented into tokens.  This tokenized co
 possible diacritized hypotheses using the unique tokens dictionary.  Score all the hypotheses and select the hypothesis (diacritized tokens) with the highest score.  Map the tokens into the actual diacritized words.
 
 
-References
+### More references
 1. Adali, K., & Eryiğit, G. (2014, April). Vowel and diacritic restoration for social media texts. In Proceedings of the 5th Workshop on Language Analysis for Social Media (LASM) (pp. 53-61).
 2. De Pauw, G., Wagacha, P. W., & De Schryver, G. M. (2007, September). Automatic diacritic restoration for resource-scarce languages. In International Conference on Text, Speech and Dialogue (pp. 170-179). Springer, Berlin, Heidelberg.
 3. Ezeani, I., Hepple, M., & Onyenwe, I. (2016, September). Automatic restoration of diacritics for Igbo language. In International Conference on Text, Speech, and Dialogue (pp. 198-205). Springer, Cham.
