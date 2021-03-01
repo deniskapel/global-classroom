@@ -21,7 +21,7 @@ ambiguity of the undiacritized text and the free word order nature of the gramma
 ### Mainly, there are three approaches to diacritics restoration(text 2):
 1. Rule-based approach
 
-The used methods include cascading Weighted Finite-State Transducers[33], lexicon retrieval and rule-based morphological analysis [7]. One other particular work [9] used diacritized text borrowing from other sources to diacritize a highly cited text. [Article 1] `To apply this, we have to spot out some rules (they probably exist, but still)'
+The used methods include cascading Weighted Finite-State Transducers[33], lexicon retrieval and rule-based morphological analysis [7]. One other particular work [9] used diacritized text borrowing from other sources to diacritize a highly cited text. [Article 1] To apply this, we have to spot out some rules (they probably exist, but still)
 
 Rule-based corrections are linked to the input and output of the model to apply some changes to the output. These rules can select the appropriate diacritic for
 some characters in some contexts, or exclude the wrong choices in other contexts by nullifying their probabilities. Different sets of rules are applied to the outputs to eliminate some impossible diacritizations according to Arabic rules [Article 1] 
@@ -31,7 +31,7 @@ some characters in some contexts, or exclude the wrong choices in other contexts
 
 This type of approaches includes using Hidden Markov odels both on word level and on character level [8,18,21], N-grams models
 on word level and on character level as well [10], Dynamic Programming methods [24–26], classical Machine learning models such as Maximum-entropy
-classifier [46], and Deep Learning methods like the Deep Neural Networks, both the classical Multi-Layer Perceptron and the advanced Recurrent Neural Networks[6,14,32,36]. [Article 1] `Ngrams on both word and character levels look the easiest for me'. They give an approach to vectorize a sentence, we may try, why not. 
+classifier [46], and Deep Learning methods like the Deep Neural Networks, both the classical Multi-Layer Perceptron and the advanced Recurrent Neural Networks[6,14,32,36]. [Article 1] Ngrams on both word and character levels look the easiest for me'. They give an approach to vectorize a sentence, we may try, why not. 
 
 5. Hybrid approach.
 
