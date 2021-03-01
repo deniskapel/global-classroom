@@ -26,6 +26,8 @@ The used methods include cascading Weighted Finite-State Transducers[33], lexico
 Rule-based corrections are linked to the input and output of the model to apply some changes to the output. These rules can select the appropriate diacritic for
 some characters in some contexts, or exclude the wrong choices in other contexts by nullifying their probabilities. Different sets of rules are applied to the outputs to eliminate some impossible diacritizations according to Arabic rules [Article 1] 
 
+Some researchers have developed systems to restore diacritics based on the morphological, syntactic, and semantic rules of Arabic [10], [11]. These rules are systematic, but
+complex [12], [13]. Morphological rules decompose the undiacritized word into its morphological entities: the class of the word, prefix, root, form, and suffix. Syntactic rules determine which diacritics accompany the last character of the word. Semantic rules resolve ambiguous cases. Rule-based diacritization is vocabulary independent; however, it is complex, time-consuming, and difficult to regularly update the rules or extend them to other Arabic dialects [14]. [article 5]
 
 2. Statistical approach
 
@@ -33,12 +35,16 @@ This type of approaches includes using Hidden Markov odels both on word level an
 on word level and on character level as well [10], Dynamic Programming methods [24–26], classical Machine learning models such as Maximum-entropy
 classifier [46], and Deep Learning methods like the Deep Neural Networks, both the classical Multi-Layer Perceptron and the advanced Recurrent Neural Networks[6,14,32,36]. [Article 1] Ngrams on both word and character levels look the easiest for me'. They give an approach to vectorize a sentence, we may try, why not. 
 
+Markov models are restrictive in the diacritization process because they match each observation to a distinct state within the model, whereas, in reality, each state (diacritic) has a probabilistic function that generates the possible observations (ASCII codes of the script letters) [Article 5]
 
 3. Hybrid approach.
 
 They use a deep learning model which is a multi-layer recurrent neural network with LSTM and Dense layers, a character-level rule-based corrector which applies deterministic operations to prevent some errors, and a word-level statistical corrector which uses the context and the distance information to fix some diacritization issues. [Article 1]
 
 The output and the input of the previous phase are transformed and merged to generate a standard diacritized sentence. The sentence is segmented into spacedelimited words and augmented by unique starting and ending entities. Every word in the sentence is checked up to 4 times in the levels of correction using the saved training data. If any acceptable correction is found at any level, the word will be corrected. Otherwise, it will be forwarded to the next level. In the case where many corrections get the same score in a single level, the first correction is chosen. If no correction is found, the predicted diacritization of the previous component is not changed. [Article 1]
+
+Combining linguistic knowledge with stochastic techniques has resulted in a hybrid system that determines the most likely diacritics for a given undiacritized text, then
+factorizes each Arabic word into all its possible morphological constituents, and finally shortlists the sequence of morphemes that is the most likely diacritization [1], [26]. [Article 5]
 
 
 ### Ways to solve:
