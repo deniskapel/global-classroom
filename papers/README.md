@@ -4,7 +4,7 @@ The following papers might be used for the project paper:
 
 1. [Multi-components System for Automatic Arabic Diacritization](https://www.semanticscholar.org/paper/Multi-components-System-for-Automatic-Arabic-Abbad-Xiong/c24d9c392878bffd8ee4c7992af967c524786cdb) Probably relevant for basaa too: The automatic diacritization problem is an essential topic due to the high
 ambiguity of the undiacritized text and the free word order nature of the grammar. Their results fro two samples are CER1 = 4.00%, WER1 = 12.08%, CER2 = 2.80% and WER2 = 6.22%.
-2. [An automatic diacritization algorithm for undiacritized Arabic text](http://etd.uum.edu.my/6822/2/s815357_02.pdf)
+2. [An automatic diacritization algorithm for undiacritized Arabic text](http://etd.uum.edu.my/6822/2/s815357_02.pdf) Only a part of a thesis, but the approaches and levels come from here.
 4. [Open Vocabulary Arabic Diacritics Restoration](https://www.semanticscholar.org/paper/Open-Vocabulary-Arabic-Diacritics-Restoration-Hifny/df672bbd9a4e88bffb3487ad28b5afb99d52d858)
 5. [Higher Order n-gram Language Models for Arabic Diacritics Restoration]()
 6. [Diacritizing Arabic Text Using a Single Hidden Markov Model](https://www.researchgate.net/publication/326163674_Diacritizing_Arabic_Text_Using_a_Single_Hidden_Markov_Model)
