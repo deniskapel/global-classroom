@@ -74,17 +74,17 @@ one-hot encoded array, where the size of the first dimension equals the length o
 A large diacritized training corpus is segmented into tokens.  This tokenized corpus is used to estimate the n-gram language model.  The unique diacritized tokens in the training set is extracted to construct the mapping dictionary. This dictionary (keys are the undiacritized tokens and values are the diacritized tokens) is used during the test phase to generate the possible diacritized tokens from the input undiacritized token sequence.  For an input undiacritized token sequence, generate all the
 possible diacritized hypotheses using the unique tokens dictionary.  Score all the hypotheses and select the hypothesis (diacritized tokens) with the highest score.  Map the tokens into the actual diacritized words.
 
-## Morphological, Syntactic and Diacritics Rules for Automatic Diacritization of Arabic Sentences [Article 10, fig.1]
+### Morphological, Syntactic and Diacritics Rules for Automatic Diacritization of Arabic Sentences [Article 10, fig.1]
 
 Chennoufi & Mazroui proposed solution for automatic diacritization will reﬂect morphological and syntactic richness which will be performed in four stages. The ﬁrst stage includes morphological analysis out of context and it provides for each word all its possible diacritization forms. In the second step, the system uses the syntactic rules to eliminate invalid transitions. The third phase is devoted to statistical processing to choose among the solutions of the second phase those most likely. This is done through the use of an HMM modeling, smoothing techniques and the Viterbi algorithm. The last step treats the not analyzed words in the morphological stage. It consists of a statistical treatment similar to that of the third step with a model based on letters rather than words.
 
 
-## Tunisian Dialect Case [Article 7]
+### Tunisian Dialect Case [Article 7]
 
 As Tunisian Dialect does not have standard orthography, that is why corpus gathering and first standardization according to Conventional Orthography for Dialectal Arabic [57] became one of the primary challenges of this case.
 This article describes two approaches of automatic diacritics restoration. In the first one is proposed two major models, in particular statistical machine translation (SMT) and a discriminative model as a sequence classification task based on Conditional Random fields (CRF). The second approach suggests the integration of POS features to influence the generation of diacritics. The results demonstrate high scores of automatic diacritization, where Word Error Rate (WER) 21.44% for CRF and WER 34.6% for SMT. 
 
-## Hungarian Case [Article 8]
+### Hungarian Case [Article 8]
  
 In this paper was used a method based on statistical machine translation (STM) which is able to restore accents in Hungarian texts with high accuracy. In Hungarian there are many word forms due to agglutination of an unknown system trained on a fixed vocabulary. In order to solve this issue was implemented morphological analyzer into system, that can suggest accented word candidates for unknown words. The different setups reached 99 percent of accuracy. This performance could only be achieved by a system that is able to produce correct word forms and takes context into account. [Article 8]
 
