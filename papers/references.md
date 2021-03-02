@@ -75,6 +75,17 @@ A large diacritized training corpus is segmented into tokens.  This tokenized co
 possible diacritized hypotheses using the unique tokens dictionary.  Score all the hypotheses and select the hypothesis (diacritized tokens) with the highest score.  Map the tokens into the actual diacritized words.
 
 
+### Tunisian Dialect Case [Article 7]
+
+As Tunisian Dialect does not have standard orthography, that is why corpus gathering and first standardization according to Conventional Orthography for Dialectal Arabic [57] became one of the primary challenges of this case.
+This article describes two approaches of automatic diacritics restoration. In the first one is proposed two major models, in particular statistical machine translation (SMT) and a discriminative model as a sequence classification task based on Conditional Random fields (CRF). The second approach suggests the integration of POS features to influence the generation of diacritics. The results demonstrate high scores of automatic diacritization, where Word Error Rate (WER) 21.44% for CRF and WER 34.6% for SMT. 
+
+### Hungarian Case [Article 8]
+ 
+In this paper was used a method based on statistical machine translation (STM) which is able to restore accents in Hungarian texts with high accuracy. In Hungarian there are many word forms due to agglutination of an unknown system trained on a fixed vocabulary. In order to solve this issue was implemented morphological analyzer into system, that can suggest accented word candidates for unknown words. The different setups reached 99 percent of accuracy. This performance could only be achieved by a system that is able to produce correct word forms and takes context into account. [Article 8]
+
+
+
 ### More references
 1. Adali, K., & Eryiğit, G. (2014, April). Vowel and diacritic restoration for social media texts. In Proceedings of the 5th Workshop on Language Analysis for Social Media (LASM) (pp. 53-61).
 2. De Pauw, G., Wagacha, P. W., & De Schryver, G. M. (2007, September). Automatic diacritic restoration for resource-scarce languages. In International Conference on Text, Speech and Dialogue (pp. 170-179). Springer, Berlin, Heidelberg.
